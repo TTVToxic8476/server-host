@@ -1,0 +1,853 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="content-language" content="en" />
+        <meta name="theme-color" content="#f0f0f0" />
+
+        <title>Aternos | Minecraft servers. Free. Forever.</title>
+
+		<base href="/front/aternos/">
+
+        <link rel="stylesheet" integrity="sha512-ojuSyv9X2fT77RVpnkFe9DuJCD8Gf43Zs0OowM/pqacvDeORIiBOG2h23Rt/aJvwojTFmpvhN2qha2vuAem4Pg==" href="/assets/front/aternos/css/aternos-a23b92caff57d9f4.css"/>        <link rel="shortcut icon" href="/favicon.ico"/>
+
+		<meta name="aternos-status" content="gqhpuae78ifzgp7eo5uihjgqwo48rtzgose0p8huwprezhdx57l" />
+		<meta name="google-site-verification" content="dcvPqimJXEOlKJXIGnGXyQy_MQbMY0u-KZt48jfkt6Q" />
+
+		<meta name="description" content="Minecraft servers. Free. Forever. Your very own Minecraft server, the only one that stays free forever.">
+
+		<link rel="canonical" href="https://aternos.org/:en/" />
+		<link rel="alternate" hreflang="en" href="https://aternos.org/:en/" /><link rel="alternate" hreflang="de" href="https://aternos.org/:de/" /><link rel="alternate" hreflang="es-ES" href="https://aternos.org/:es-ES/" /><link rel="alternate" hreflang="pt-PT" href="https://aternos.org/:pt-PT/" /><link rel="alternate" hreflang="pt-BR" href="https://aternos.org/:pt-BR/" /><link rel="alternate" hreflang="fr" href="https://aternos.org/:fr/" /><link rel="alternate" hreflang="it" href="https://aternos.org/:it/" /><link rel="alternate" hreflang="vi" href="https://aternos.org/:vi/" /><link rel="alternate" hreflang="fil" href="https://aternos.org/:fil/" /><link rel="alternate" hreflang="pl" href="https://aternos.org/:pl/" /><link rel="alternate" hreflang="ru" href="https://aternos.org/:ru/" /><link rel="alternate" hreflang="cs" href="https://aternos.org/:cs/" /><link rel="alternate" hreflang="id" href="https://aternos.org/:id/" /><link rel="alternate" hreflang="da" href="https://aternos.org/:da/" /><link rel="alternate" hreflang="fi" href="https://aternos.org/:fi/" /><link rel="alternate" hreflang="no" href="https://aternos.org/:no/" /><link rel="alternate" hreflang="et" href="https://aternos.org/:et/" /><link rel="alternate" hreflang="sv-SE" href="https://aternos.org/:sv-SE/" /><link rel="alternate" hreflang="nl" href="https://aternos.org/:nl/" /><link rel="alternate" hreflang="af" href="https://aternos.org/:af/" /><link rel="alternate" hreflang="tr" href="https://aternos.org/:tr/" /><link rel="alternate" hreflang="ro" href="https://aternos.org/:ro/" /><link rel="alternate" hreflang="sl" href="https://aternos.org/:sl/" /><link rel="alternate" hreflang="sk" href="https://aternos.org/:sk/" /><link rel="alternate" hreflang="sq" href="https://aternos.org/:sq/" /><link rel="alternate" hreflang="mt" href="https://aternos.org/:mt/" /><link rel="alternate" hreflang="gl" href="https://aternos.org/:gl/" /><link rel="alternate" hreflang="ca" href="https://aternos.org/:ca/" /><link rel="alternate" hreflang="az" href="https://aternos.org/:az/" /><link rel="alternate" hreflang="ga-IE" href="https://aternos.org/:ga-IE/" /><link rel="alternate" hreflang="tl" href="https://aternos.org/:tl/" /><link rel="alternate" hreflang="uk" href="https://aternos.org/:uk/" /><link rel="alternate" hreflang="bg" href="https://aternos.org/:bg/" /><link rel="alternate" hreflang="lt" href="https://aternos.org/:lt/" /><link rel="alternate" hreflang="lv" href="https://aternos.org/:lv/" /><link rel="alternate" hreflang="sr" href="https://aternos.org/:sr/" /><link rel="alternate" hreflang="hr" href="https://aternos.org/:hr/" /><link rel="alternate" hreflang="el" href="https://aternos.org/:el/" /><link rel="alternate" hreflang="hu" href="https://aternos.org/:hu/" /><link rel="alternate" hreflang="os" href="https://aternos.org/:os/" /><link rel="alternate" hreflang="he" href="https://aternos.org/:he/" /><link rel="alternate" hreflang="ar" href="https://aternos.org/:ar/" /><link rel="alternate" hreflang="fa" href="https://aternos.org/:fa/" /><link rel="alternate" hreflang="ur-PK" href="https://aternos.org/:ur-PK/" /><link rel="alternate" hreflang="zh-TW" href="https://aternos.org/:zh-TW/" /><link rel="alternate" hreflang="zh-CN" href="https://aternos.org/:zh-CN/" /><link rel="alternate" hreflang="ja" href="https://aternos.org/:ja/" /><link rel="alternate" hreflang="ko" href="https://aternos.org/:ko/" /><link rel="alternate" hreflang="th" href="https://aternos.org/:th/" /><link rel="alternate" hreflang="hi" href="https://aternos.org/:hi/" /><link rel="alternate" hreflang="ka" href="https://aternos.org/:ka/" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+		<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		  ga('create', 'UA-43611107-1', 'aternos.org');
+          ga('set', 'anonymizeIp', true);
+		  ga('send', 'pageview');
+
+		</script>
+    </head>
+	<body>
+
+        <main class="container">
+            <div class="splash">
+                <div class="splash-header">
+                    <div class="langswitch">
+                        <div class="langswitch-opener js-langswitch-opener">
+                            <i class="fas fa-globe-americas"></i><span class="u-hide-tiny"> Language <i class="fas fa-chevron-down"></i></span>
+                        </div>
+                        <div class="langswitch-container">
+                            <div class="langswitch-dropdown">
+                                <a lang="en" href="/language/en/">English</a><a lang="de" href="/language/de/">Deutsch</a><a lang="es-ES" href="/language/es-ES/">Español</a><a lang="pt-PT" href="/language/pt-PT/">Português</a><a lang="pt-BR" href="/language/pt-BR/">Português Brasileiro</a><a lang="fr" href="/language/fr/">Français</a><a lang="it" href="/language/it/">Italiano</a><a lang="vi" href="/language/vi/">Tiếng việt</a><a lang="fil" href="/language/fil/">Filipino</a><a lang="pl" href="/language/pl/">Polski</a><a lang="ru" href="/language/ru/">Русский</a><a lang="cs" href="/language/cs/">Čeština</a><a lang="id" href="/language/id/">Indonesia</a><a lang="da" href="/language/da/">Dansk</a><a lang="fi" href="/language/fi/">Suomi</a><a lang="no" href="/language/no/">Norsk</a><a lang="et" href="/language/et/">Eesti</a><a lang="sv-SE" href="/language/sv-SE/">Svenska</a><a lang="nl" href="/language/nl/">Nederlands</a><a lang="af" href="/language/af/">Afrikaans</a><a lang="tr" href="/language/tr/">Türkçe</a><a lang="ro" href="/language/ro/">Română</a><a lang="sl" href="/language/sl/">Slovenščina</a><a lang="sk" href="/language/sk/">Slovenčina</a><a lang="sq" href="/language/sq/">Shqip</a><a lang="mt" href="/language/mt/">Malti</a><a lang="gl" href="/language/gl/">Galego</a><a lang="ca" href="/language/ca/">Català</a><a lang="az" href="/language/az/">Azərbaycanca</a><a lang="ga-IE" href="/language/ga-IE/">Gaeilge</a><a lang="tl" href="/language/tl/">Tagalog</a><a lang="uk" href="/language/uk/">Українська</a><a lang="bg" href="/language/bg/">български</a><a lang="lt" href="/language/lt/">Lietuvių</a><a lang="lv" href="/language/lv/">Latviešu</a><a lang="sr" href="/language/sr/">Српски</a><a lang="hr" href="/language/hr/">Hrvatski</a><a lang="el" href="/language/el/">Ελληνικά</a><a lang="hu" href="/language/hu/">Magyar</a><a lang="os" href="/language/os/">Ирон</a><a lang="he" href="/language/he/">עברית</a><a lang="ar" href="/language/ar/">العَرَبِية</a><a lang="fa" href="/language/fa/">فارسی</a><a lang="ur-PK" href="/language/ur-PK/">اُردُو</a><a lang="zh-TW" href="/language/zh-TW/">繁體中文</a><a lang="zh-CN" href="/language/zh-CN/">简体中文</a><a lang="ja" href="/language/ja/">日本語</a><a lang="ko" href="/language/ko/">한국어</a><a lang="th" href="/language/th/">ไทย</a><a lang="hi" href="/language/hi/">हिन्दी</a><a lang="ka" href="/language/ka/">ქართული ენა</a>                                <div class="langswitch-translate">
+                                    <a href="https://crowdin.com/project/aternos" target="_blank" rel="noopener"><i class="fas fa-pencil-alt"></i> Translate</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="splash-footer">
+                    <div class="splash-logo">
+                        <img data-scrollpoint="body" class="opnav-logo-img" src="img/logo.svg" alt="Aternos Logo" />
+                    </div>
+                    <div class="splash-menu-left">
+                    </div>
+                    <nav class="splash-menu">
+                        <div><a href="/#about" data-scrollpoint="#about">What?</a></div>
+                        <div><a href="/#facts" data-scrollpoint="#facts">Facts</a></div>
+                        <div><a href="/#features" data-scrollpoint="#features">Features</a></div>
+                        <div><a href="/#team" data-scrollpoint="#team">Team</a></div>
+                        <div><a href="/#partner" data-scrollpoint="#partner">Partners</a></div>
+                        <div class="has-signup"><a class="mod-signup" href="/go/"><i class="fas fa-gamepad"></i> Play</a></div>
+                    </nav>
+                </div>
+                <div class="splash-fullscreen">
+                    <div class="centertext">
+                        <h1 class="centertext-text">
+                            Minecraft servers.<br />
+                            Free. Forever.
+                        </h1>
+                    </div>
+                </div>
+            </div>
+            <div class="row dark" id="about">
+                <div class="row-content">
+                    <div class="icontext mod-iconleft">
+                        <div class="icontext-icon">
+                            <i class="fas fa-server"></i>
+                        </div>
+                        <div class="icontext-text">
+                            <h3 class="icontext-text-title">Your personal Minecraft server</h3>
+                            <p class="icontext-text-desc">
+                                We give you your very own personal Minecraft server, where you can play on with your friends all day and all night.                            </p>
+                            <a href="/go/" class="btn btn-blue">
+                                <i class="fas fa-user"></i>Get yours now                            </a>
+                        </div>
+                    </div>
+                    <div class="icontext mod-iconright">
+                        <div class="icontext-icon">
+                            <i class="far fa-thumbs-up"></i>
+                        </div>
+                        <div class="icontext-text">
+                            <h3 class="icontext-text-title">For Free</h3>
+                            <p class="icontext-text-desc">
+                                We are free, and we will always be free for everyone at any time. There is no possibility to pay for anything.                            </p>
+                            <a href="/go/" class="btn btn-blue btn-right">
+                                <i class="fas fa-shopping-cart"></i>Pay nothing now                            </a>
+                        </div>
+                    </div>
+                    <div class="icontext mod-iconleft">
+                        <div class="icontext-icon">
+                            <i class="far fa-tv"></i>
+                        </div>
+                        <div class="icontext-text">
+                            <h3 class="icontext-text-title">Easy to use</h3>
+                            <p class="icontext-text-desc">
+                                We don't know, why it could be complicated to own a Minecraft server. At Aternos it is just as easy as pressing a button.                            </p>
+                            <a href="/go/" class="btn btn-blue">
+                                <i class="fal fa-hand-pointer"></i>Press a button now                            </a>
+                        </div>
+                    </div>
+                    <div class="icontext mod-iconright">
+                        <div class="icontext-icon">
+                            <i class="fas fa-cubes"></i>
+                        </div>
+                        <div class="icontext-text">
+                            <h3 class="icontext-text-title">Built to be played</h3>
+                            <p class="icontext-text-desc">
+                                We offer you servers that you can actually play and have fun on. Lots of fun. No unnecessary restrictions to steal your time and money.                            </p>
+                            <a href="/go/" class="btn btn-blue btn-right">
+                                <i class="fas fa-gamepad"></i>Play now                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+                        <div class="row" id="facts">
+                                    <div class="row-content">
+                        <div class="tetris">
+                            <div class="tetris-row">
+                                <div class="tetris-row-element mod-width-3 mod-open-bottom">
+                                    <div class="number">
+                                        <span class="number-main js-countup">77,118,068</span>
+                                        <span class="number-label">Users</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tetris-row">
+                                <div class="tetris-row-element mod-width-1 mod-open-bottom">
+                                    <div class="number mod-compact">
+                                        <span class="number-main"><span class="js-countup">1</span><span class="number-label number-label-inline">Million</span></span>
+                                        <span class="number-label">Players every day</span>
+                                    </div>
+                                </div>
+                                <div class="tetris-row-element mod-width-1 mod-open-bottom u-hide-tiny">
+                                    <div>
+                                        <div class="number-icon start-icon">
+                                            <i class="fas fa-rocket"></i>
+                                        </div>
+                                        <div class="number-button">
+                                            <a href="/go/" class="btn btn-green"><i class="fas fa-rocket"></i>Start</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tetris-row-element mod-width-1 mod-open-top u-hide-tiny">
+                                    <div>
+                                        <div class="number-icon signup-icon">
+                                            <i class="fas fa-users"></i>
+                                        </div>
+                                        <div class="number-button">
+                                            <a href="/go/" class="btn btn-blue"><i class="fas fa-user"></i>Sign up</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tetris-row">
+                                <div class="tetris-row-element mod-width-1 mod-open-top mod-open-bottom u-hide-tiny">
+                                    <div>
+                                        <div class="number-icon play-icon">
+                                            <i class="fas fa-gamepad"></i>
+                                        </div>
+                                        <div class="number-button">
+                                            <a href="/go/" class="btn btn-red"><i class="fas fa-gamepad"></i>Play</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tetris-row-element mod-width-2 mod-open-top">
+                                    <div class="number mod-medium">
+                                        <span class="number-main js-countup">180,044</span>
+                                        <span class="number-label">GB RAM</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tetris-row">
+                                <div class="tetris-row-element mod-width-2 mod-open-top">
+                                    <div class="number mod-medium">
+                                        <span class="number-main"><span class="js-countup">43,149</span></span>
+                                        <span class="number-label">Players online</span>
+                                    </div>
+                                </div>
+                                <div class="tetris-row-element mod-width-1 mod-force-open-top u-hide-tiny">
+                                    <div>
+                                        <div class="number-icon enjoy-icon">
+                                            <i class="fas fa-cubes"></i>
+                                        </div>
+                                        <div class="number-button">
+                                            <a href="/go/" class="btn btn-orange"><i class="fas fa-cubes"></i>Enjoy</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                            </div>
+            <div class="row dark" id="features">
+                <div class="row-content">
+                    <h2>Features</h2>
+                    <div class="grid">
+                        <div class="u-clear">
+                            <div class="grid-element mod-4 mod-padding">
+                                <div class="bigicon mod-4">
+                                    <div class="bigicon-icon">
+                                        <i class="fas fa-cogs"></i>
+                                    </div>
+                                    <div class="bigicon-text">
+                                        <h3>Fully Customizable</h3>
+                                        Adjust everything on your server the way you like it and make it your game.                                    </div>
+                                </div>
+                            </div>
+                            <div class="grid-element mod-4 mod-padding">
+                                <div class="bigicon mod-4">
+                                    <div class="bigicon-icon">
+                                        <i class="fas fa-puzzle-piece"></i>
+                                    </div>
+                                    <div class="bigicon-text">
+                                        <h3>Mods & Plugins</h3>
+                                        Vanilla is too boring for you? Add plugins, play with your favourite mods or use one of many preconfigured modpacks for your very own experience.                                    </div>
+                                </div>
+                            </div>
+                            <div class="grid-element mod-4 mod-padding">
+                                <div class="bigicon mod-4">
+                                    <div class="bigicon-icon">
+                                        <i class="fas fa-shield-alt"></i>
+                                    </div>
+                                    <div class="bigicon-text">
+                                        <h3>DDOS Protected</h3>
+                                        Your Minecraft server is fully DDOS protected for free to keep you safe from attacks.                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="u-clear">
+                            <div class="grid-element mod-4 mod-padding">
+                                <div class="bigicon mod-4">
+                                    <div class="bigicon-icon">
+                                        <i class="fas fa-database"></i>
+                                    </div>
+                                    <div class="bigicon-text">
+                                        <h3>Automatic Backups</h3>
+                                        We always keep a backup of your server, just in case you need it.                                    </div>
+                                </div>
+                            </div>
+                            <div class="grid-element mod-4 mod-padding">
+                                <div class="bigicon mod-4">
+                                    <div class="bigicon-icon">
+                                        <i class="fas fa-globe-americas "></i>
+                                    </div>
+                                    <div class="bigicon-text">
+                                        <h3>Custom Worlds</h3>
+                                        Adventure maps, parkour or the latest minigame. You can upload any world you want to play.                                    </div>
+                                </div>
+                            </div>
+                            <div class="grid-element mod-4 mod-padding">
+                                <div class="bigicon mod-4">
+                                    <div class="bigicon-icon">
+                                        <i class="far fa-life-ring"></i>
+                                    </div>
+                                    <div class="bigicon-text">
+                                        <h3>Excellent Support</h3>
+                                        If you need help, we are here to help.<br />
+                                        <a href="https://support.aternos.org" target="_blank" rel="noopener" class="btn btn-white"><i class="far fa-life-ring"></i>Get Help</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="row-content">
+                    <h2>Games</h2>
+                    <h3>Minecraft: Java Edition</h3>
+                    <div class="front-software-list">
+                        <div class="front-software-group">
+                            <div class="front-software-names">
+                                <div class="front-software">
+                                    <div class="front-software-icon">
+                                        <i class="fas fa-cubes"></i>
+                                    </div>
+                                    <div class="front-software-name">
+                                        Vanilla
+                                    </div>
+                                </div>
+                                <div class="front-software">
+                                    <div class="front-software-icon">
+                                        <i class="fas fa-cubes"></i>
+                                    </div>
+                                    <div class="front-software-name">
+                                        Snapshots
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="front-software-description">
+                                For the original survival multiplayer experience.                            </div>
+                        </div>
+                        <div class="front-software-group">
+                            <div class="front-software-names">
+                                <div class="front-software">
+                                    <div class="front-software-icon">
+                                        <i class="fas fa-puzzle-piece"></i>
+                                    </div>
+                                    <div class="front-software-name">
+                                        Paper/Bukkit
+                                    </div>
+                                </div>
+                                <div class="front-software">
+                                    <div class="front-software-icon">
+                                        <i class="fas fa-puzzle-piece"></i>
+                                    </div>
+                                    <div class="front-software-name">
+                                        Spigot/Bukkit
+                                    </div>
+                                </div>
+                                <div class="front-software">
+                                    <div class="front-software-icon">
+                                        <i class="fas fa-puzzle-piece"></i>
+                                    </div>
+                                    <div class="front-software-name">
+                                        Glowstone
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="front-software-description">
+                                Expand your SMP experience with plugins or create your own minigame server.                            </div>
+                        </div>
+                        <div class="front-software-group">
+                            <div class="front-software-names">
+                                <div class="front-software">
+                                    <div class="front-software-icon">
+                                        <i class="fas fa-cog"></i>
+                                    </div>
+                                    <div class="front-software-name">
+                                        Forge
+                                    </div>
+                                </div>
+                                <div class="front-software">
+                                    <div class="front-software-icon">
+                                        <i class="fas fa-cog"></i>
+                                    </div>
+                                    <div class="front-software-name">
+                                        Fabric
+                                    </div>
+                                </div>
+                                <div class="front-software">
+                                    <div class="front-software-icon">
+                                        <i class="fas fa-cogs"></i>
+                                    </div>
+                                    <div class="front-software-name">
+                                        Modpacks
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="front-software-description">
+                                Use one of our preconfigured modpacks or create your own modded SMP.                            </div>
+                        </div>
+                        <div class="front-software-group">
+                            <div class="front-software-names">
+                                <div class="front-software">
+                                    <div class="front-software-icon">
+                                        <i class="fas fa-tools"></i>
+                                    </div>
+                                    <div class="front-software-name">
+                                        Mohist
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="front-software-description">
+                                Combine the power of mods and plugins to get the best of both worlds.                            </div>
+                        </div>
+                    </div>
+                    <h3>Minecraft: Bedrock Edition</h3>
+                    <div class="front-software-list">
+                        <div class="front-software-group">
+                            <div class="front-software-names">
+                                <div class="front-software">
+                                    <div class="front-software-icon">
+                                        <i class="fas fa-mobile-alt"></i>
+                                    </div>
+                                    <div class="front-software-name">
+                                        Bedrock
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="front-software-description">
+                                The official server software with full survival support for your own SMP experience.                            </div>
+                        </div>
+                        <div class="front-software-group">
+                            <div class="front-software-names">
+                                <div class="front-software">
+                                    <div class="front-software-icon">
+                                        <i class="fas fa-puzzle-piece"></i>
+                                    </div>
+                                    <div class="front-software-name">
+                                        Pocketmine
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="front-software-description">
+                                Use this server software to create your own experience using plugins.                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row dark">
+                <div class="row-content">
+                    <div class="grid">
+                        <div class="u-clear">
+                            <div class="grid-element mod-4 mod-padding">
+                                <div class="bigicon mod-4">
+                                    <div class="bigicon-icon">
+                                        <i class="fas fa-axe"></i>
+                                    </div>
+                                    <div class="bigicon-text">
+                                        <h3>Create your free SMP</h3>
+                                        Your own survival multiplayer experience, free forever.                                    </div>
+                                </div>
+                            </div>
+                            <div class="grid-element mod-4 mod-padding">
+                                <div class="bigicon mod-4">
+                                    <div class="bigicon-icon">
+                                        <i class="fas fa-atlas"></i>
+                                    </div>
+                                    <div class="bigicon-text">
+                                        <h3>Custom domains</h3>
+                                        Use your own domain to connect to your server.                                    </div>
+                                </div>
+                            </div>
+                            <div class="grid-element mod-4 mod-padding">
+                                <div class="bigicon mod-4">
+                                    <div class="bigicon-icon">
+                                        <i class="fas fa-hands-helping"></i>
+                                    </div>
+                                    <div class="bigicon-text">
+                                        <h3>Share access</h3>
+                                        Don't run your server alone. Share access with your friends and manage your server together.                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="u-clear">
+                            <div class="grid-element mod-4 mod-padding">
+                                <div class="bigicon mod-4">
+                                    <div class="bigicon-icon">
+                                        <i class="fas fa-infinity"></i>
+                                    </div>
+                                    <div class="bigicon-text">
+                                        <h3>Unlimited slots</h3>
+                                        Play with as many friends as you want without unnecessary slot limitations.                                    </div>
+                                </div>
+                            </div>
+                            <div class="grid-element mod-4 mod-padding">
+                                <div class="bigicon mod-4">
+                                    <div class="bigicon-icon">
+                                        <i class="fas fa-archive"></i>
+                                    </div>
+                                    <div class="bigicon-text">
+                                        <h3>Add-Ons & Datapacks</h3>
+                                        Expand your vanilla experience with our easy drag and drop upload for Bedrock add-ons and datapacks.                                    </div>
+                                </div>
+                            </div>
+                            <div class="grid-element mod-4 mod-padding">
+                                <div class="bigicon mod-4">
+                                    <div class="bigicon-icon">
+                                        <i class="far fa-window"></i>
+                                    </div>
+                                    <div class="bigicon-text">
+                                        <h3>Real-time console</h3>
+                                        Managing your server couldn't be easier with our real-time live console.                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row" id="team">
+                <div class="row-content">
+                    <h2>Team</h2>
+                    <div class="team">
+                        <div class="team-member grid-element grid">
+                            <div class="team-member-avatar grid-element mod-4">
+                                <img loading="lazy" class="team-member-avatar-img" src="img/team/matthias.svg" alt="Aternos Matthias Avatar" />
+                            </div>
+                            <div class="team-member-text grid-element mod-8">
+                                <h3 class="team-member-text-name">Matthias</h3>
+                                <div class="team-member-text-desc">
+                                    Developer                                </div>
+                                <div class="team-member-text-social">
+                                    <ul>
+                                        <li><a href="/cdn-cgi/l/email-protection#610c0015150908001221001504130f0e124f0e1306"><i class="fas fa-envelope"></i></a></li>
+                                        <li><a href="https://twitter.com/matternos" target="_blank" rel="noopener"><i class="fab fa-twitter"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="team-member grid-element grid">
+                            <div class="team-member-avatar grid-element mod-4">
+                                <img loading="lazy" class="team-member-avatar-img" src="img/team/roman.svg" alt="Aternos Roman Avatar" />
+                            </div>
+                            <div class="team-member-text grid-element mod-8">
+                                <h3 class="team-member-text-name">Roman</h3>
+                                <div class="team-member-text-desc">
+                                    Engineer                                </div>
+                                <div class="team-member-text-social">
+                                    <ul>
+                                        <li><a href="/cdn-cgi/l/email-protection#ec9e83818d82ac8d98899e82839fc2839e8b"><i class="fas fa-envelope"></i></a></li>
+                                        <li><a href="https://twitter.com/aft2d" target="_blank" rel="noopener"><i class="fab fa-twitter"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="team-member grid-element grid">
+                            <div class="team-member-avatar grid-element mod-4">
+                                <img loading="lazy" class="team-member-avatar-img" src="img/team/kurt.svg" alt="Aternos Kurt Avatar" />
+                            </div>
+                            <div class="team-member-text grid-element mod-8">
+                                <h3 class="team-member-text-name">Kurt</h3>
+                                <div class="team-member-text-desc">
+                                    Developer                                </div>
+                                <div class="team-member-text-social">
+                                    <ul>
+                                        <li><a href="/cdn-cgi/l/email-protection#d8b3adaaac98b9acbdaab6b7abf6b7aabf"><i class="fas fa-envelope"></i></a></li>
+                                        <li><a href="https://twitter.com/kurt_thiemann" target="_blank" rel="noopener"><i class="fab fa-twitter"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="team-member grid-element grid">
+                            <div class="team-member-avatar grid-element mod-4">
+                                <img loading="lazy" class="team-member-avatar-img" src="img/team/julian.svg" alt="Aternos Julian Avatar" />
+                            </div>
+                            <div class="team-member-text grid-element mod-8">
+                                <h3 class="team-member-text-name">Julian</h3>
+                                <div class="team-member-text-desc">
+                                    Developer                                </div>
+                                <div class="team-member-text-social">
+                                    <ul>
+                                        <li><a href="/cdn-cgi/l/email-protection#93f9e6fffaf2fdd3f2e7f6e1fdfce0bdfce1f4"><i class="fas fa-envelope"></i></a></li>
+                                        <li><a href="https://twitter.com/mc88donalds" target="_blank" rel="noopener"><i class="fab fa-twitter"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="team-member grid-element grid">
+                            <div class="team-member-avatar grid-element mod-4">
+                                <img loading="lazy" class="team-member-avatar-img" src="img/team/dominikd.svg" alt="Aternos Dominik Avatar" />
+                            </div>
+                            <div class="team-member-text grid-element mod-8">
+                                <h3 class="team-member-text-name">Dominik</h3>
+                                <div class="team-member-text-desc">
+                                    Developer                                </div>
+                                <div class="team-member-text-social">
+                                    <ul>
+                                        <li><a href="/cdn-cgi/l/email-protection#d0b4bfbdb9beb9bbb490b1a4b5a2bebfa3febfa2b7"><i class="fas fa-envelope"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="team-member grid-element grid">
+                            <div class="team-member-avatar grid-element mod-4">
+                                <img loading="lazy" class="team-member-avatar-img" src="img/team/riccardo.svg" alt="Aternos Riccardo Avatar" />
+                            </div>
+                            <div class="team-member-text grid-element mod-8">
+                                <h3 class="team-member-text-name">Riccardo</h3>
+                                <div class="team-member-text-desc">
+                                    Developer                                </div>
+                                <div class="team-member-text-social">
+                                    <ul>
+                                        <li><a href="/cdn-cgi/l/email-protection#790b101a1a180b1d1639180d1c0b17160a57160b1e"><i class="fas fa-envelope"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="team-member grid-element grid">
+                            <div class="team-member-avatar grid-element mod-4">
+                                <img loading="lazy" class="team-member-avatar-img" src="img/team/jannic.svg" alt="Aternos Jannic Avatar" />
+                            </div>
+                            <div class="team-member-text grid-element mod-8">
+                                <h3 class="team-member-text-name">Jannic</h3>
+                                <div class="team-member-text-desc">
+                                    Developer                                </div>
+                                <div class="team-member-text-social">
+                                    <ul>
+                                        <li><a href="/cdn-cgi/l/email-protection#dbb1bab5b5b2b89bbaafbea9b5b4a8f5b4a9bc"><i class="fas fa-envelope"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="team-member grid-element grid">
+                            <div class="team-member-avatar grid-element mod-4">
+                                <img loading="lazy" class="team-member-avatar-img" src="img/team/paul.svg" alt="Aternos Paul Avatar" />
+                            </div>
+                            <div class="team-member-text grid-element mod-8">
+                                <h3 class="team-member-text-name">Paul</h3>
+                                <div class="team-member-text-desc">
+                                    Developer                                </div>
+                                <div class="team-member-text-social">
+                                    <ul>
+                                        <li><a href="/cdn-cgi/l/email-protection#a7d7c6d2cbe7c6d3c2d5c9c8d489c8d5c0"><i class="fas fa-envelope"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="team-member grid-element grid">
+                            <div class="team-member-avatar grid-element mod-4">
+                                <img loading="lazy" class="team-member-avatar-img" src="img/team/tom.svg" alt="Aternos Tom Avatar" />
+                            </div>
+                            <div class="team-member-text grid-element mod-8">
+                                <h3 class="team-member-text-name">Tom</h3>
+                                <div class="team-member-text-desc">
+                                    Developer                                </div>
+                                <div class="team-member-text-social">
+                                    <ul>
+                                        <li><a href="/cdn-cgi/l/email-protection#f783989ab796839285999884d9988590"><i class="fas fa-envelope"></i></a></li>
+                                        <li><a href="https://twitter.com/tom_jpeg" target="_blank" rel="noopener"><i class="fab fa-twitter"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <h2 id="partner">Partners</h2>
+                    <div class="team partner">
+                        <div class="team-member grid-element grid">
+                            <div class="team-member-avatar grid-element mod-4">
+                                <img class="team-member-avatar-img" src="img/partner/glowstone-logo.png" alt="Glowstone"
+                                     loading="lazy" sizes="100px"
+                                     srcset="img/partner/glowstone-logo@100.png 100w, img/partner/glowstone-logo@200.png 200w, img/partner/glowstone-logo@400.png 400w, img/partner/glowstone-logo.png 432w"/>
+                            </div>
+                            <div class="team-member-text grid-element mod-8">
+                                <h3 class="team-member-text-name">Glowstone</h3>
+                                <div class="team-member-text-desc">
+                                    Serversoftware
+                                </div>
+                                <div class="team-member-text-social">
+                                    <ul>
+                                        <li><a href="https://glowstone.net" target="_blank" rel="noopener"><i class="fas fa-globe-americas"></i></a></li>
+                                        <li><a href="https://twitter.com/GlowstoneMC" target="_blank" rel="noopener"><i class="fab fa-twitter"></i></a></li>
+                                        <li><a href="https://github.com/GlowstoneMC" target="_blank" rel="noopener"><i class="fab fa-github"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="team-member grid-element grid">
+                            <div class="team-member-avatar grid-element mod-4">
+                                <img class="team-member-avatar-img" src="img/partner/spiget-logo.png" alt="Spiget"
+                                     sizes="100px" loading="lazy"
+                                     srcset="img/partner/spiget-logo@100.png 100w, img/partner/spiget-logo@200.png 200w, img/partner/spiget-logo.png 250w"/>
+                            </div>
+                            <div class="team-member-text grid-element mod-8">
+                                <h3 class="team-member-text-name">Spiget</h3>
+                                <div class="team-member-text-desc">
+                                    API
+                                </div>
+                                <div class="team-member-text-social">
+                                    <ul>
+                                        <li><a href="https://spiget.org" target="_blank" rel="noopener"><i class="fas fa-globe-americas"></i></a></li>
+                                        <li><a href="https://twitter.com/spiget_org" target="_blank" rel="noopener"><i class="fab fa-twitter"></i></a></li>
+                                        <li><a href="https://github.com/SpiGetOrg" target="_blank" rel="noopener"><i class="fab fa-github"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="team-member grid-element grid">
+                            <div class="team-member-avatar grid-element mod-4">
+                                <img class="team-member-avatar-img" src="img/partner/cyber-security-cluster-bonn.png"
+                                     alt="Cyber Security Cluster Bonn" sizes="100px" loading="lazy"
+                                     srcset="img/partner/cyber-security-cluster-bonn@100.png 100w, img/partner/cyber-security-cluster-bonn@200.png 200w, img/partner/cyber-security-cluster-bonn.png 344w"/>
+                            </div>
+                            <div class="team-member-text grid-element mod-8">
+                                <h3 class="team-member-text-name">CSC Bonn</h3>
+                                <div class="team-member-text-desc">
+                                    Association
+                                </div>
+                                <div class="team-member-text-social">
+                                    <ul>
+                                        <li><a href="https://cyber-security-cluster.eu/en" target="_blank" rel="noopener"><i class="fas fa-globe-americas"></i></a></li>
+                                        <li><a href="https://twitter.com/CSCBonn" target="_blank" rel="noopener"><i class="fab fa-twitter"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="team-member grid-element grid">
+                            <div class="team-member-avatar grid-element mod-4">
+                                <img class="team-member-avatar-img" src="img/partner/cup-of-architects.png"
+                                     alt="Cup of Architects" style="border-radius: 100px;" sizes="100px" loading="lazy"
+                                     srcset="img/partner/cup-of-architects@100.png 100w, img/partner/cup-of-architects@200.png 200w, img/partner/cup-of-architects@400.png 400w, img/partner/cup-of-architects.png 500w" />
+                            </div>
+                            <div class="team-member-text grid-element mod-8">
+                                <h3 class="team-member-text-name">Cup of Architects</h3>
+                                <div class="team-member-text-desc">
+                                    Contest
+                                </div>
+                                <div class="team-member-text-social">
+                                    <ul>
+                                        <li><a href="https://twitter.com/CupOfArchitects" target="_blank" rel="noopener"><i class="fab fa-twitter"></i></a></li>
+                                        <li><a href="https://www.youtube.com/CupOfArchitects" target="_blank" rel="noopener"><i class="fab fa-youtube"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="team-member grid-element grid">
+                            <div class="team-member-avatar grid-element mod-4">
+                                <img class="team-member-avatar-img" src="img/partner/hse.png"
+                                     alt="HSE Minecraft" loading="lazy" sizes="100px"
+                                     srcset="img/partner/hse@100.png 100w, img/partner/hse@200.png 200w, img/partner/hse@400.png 400w, img/partner/hse.png 928w" />
+                            </div>
+                            <div class="team-member-text grid-element mod-8">
+                                <h3 class="team-member-text-name">HSE Minecraft</h3>
+                                <div class="team-member-text-desc">
+                                    Project
+                                </div>
+                                <div class="team-member-text-social">
+                                    <ul>
+                                        <li><a href="https://www.hse.ru/en/minecraft/" target="_blank" rel="noopener"><i class="fas fa-globe-asia"></i></a></li>
+                                        <li><a href="https://www.facebook.com/hseminecraft" target="_blank" rel="noopener"><i class="fab fa-facebook-f"></i></a></li>
+                                        <li><a href="https://vk.com/hseminecraft" target="_blank" rel="noopener"><i class="fab fa-vk"></i></a></li>
+                                        <li><a href="https://www.instagram.com/hseminecraft/" target="_blank" rel="noopener"><i class="fab fa-instagram"></i></a></li>
+                                        <li><a href="https://www.youtube.com/channel/UC8l-nftlzgfUp2R3Aeur2wg " target="_blank" rel="noopener"><i class="fab fa-youtube"></i></a></li>
+                                        <li><a href="https://discord.gg/jxssvAx" target="_blank" rel="noopener"><i class="fab fa-discord"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="team-member grid-element grid">
+                            <div class="team-member-avatar grid-element mod-4">
+                                <img class="team-member-avatar-img" src="img/partner/luges.png"
+                                     alt="Lancaster University Gaming & eSports Society" loading="lazy" sizes="100px"
+                                     srcset="img/partner/luges@100.png 100w, img/partner/luges.png 181w" />
+                            </div>
+                            <div class="team-member-text grid-element mod-8">
+                                <h3 class="team-member-text-name">LUGES</h3>
+                                <div class="team-member-text-desc">
+                                    Society
+                                </div>
+                                <div class="team-member-text-social">
+                                    <ul>
+                                        <li><a href="https://www.lancaster.ac.uk/luges/" target="_blank" rel="noopener"><i class="fas fa-globe-americas"></i></a></li>
+                                        <li><a href="https://www.facebook.com/OfficialLUGES/" target="_blank" rel="noopener"><i class="fab fa-facebook-f"></i></a></li>
+                                        <li><a href="https://www.twitch.tv/LUeSports" target="_blank" rel="noopener"><i class="fab fa-twitch"></i></a></li>
+                                        <li><a href="https://twitter.com/OfficialLUGES" target="_blank" rel="noopener"><i class="fab fa-twitter"></i></a></li>
+                                        <li><a href="https://discord.gg/luges" target="_blank" rel="noopener"><i class="fab fa-discord"></i></a></li>
+                                        <li><a href="https://www.reddit.com/r/OfficialLUGES/" target="_blank" rel="noopener"><i class="fab fa-reddit"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="team-member grid-element grid">
+                            <div class="team-member-avatar grid-element mod-4">
+                                <img class="team-member-avatar-img" src="img/partner/stags.png"
+                                     alt="St Andrews Gaming Society" loading="lazy" sizes="100px"
+                                     srcset="img/partner/stags@100.png 100w, img/partner/stags@200.png 200w, img/partner/stags.png 276w" />
+                            </div>
+                            <div class="team-member-text grid-element mod-8">
+                                <h3 class="team-member-text-name">StAGS</h3>
+                                <div class="team-member-text-desc">
+                                    Society
+                                </div>
+                                <div class="team-member-text-social">
+                                    <ul>
+                                        <li><a href="https://www.yourunion.net/activities/society/6383/" target="_blank" rel="noopener"><i class="fas fa-globe-americas"></i></a></li>
+                                        <li><a href="https://www.facebook.com/groups/StAGamingSoc/" target="_blank" rel="noopener"><i class="fab fa-facebook-f"></i></a></li>
+                                        <li><a href="https://twitter.com/StAGSesports" target="_blank" rel="noopener"><i class="fab fa-twitter"></i></a></li>
+                                        <li><a href="https://www.twitch.tv/StAGSEsports" target="_blank" rel="noopener"><i class="fab fa-twitch"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="team-member grid-element grid">
+                            <div class="team-member-avatar grid-element mod-4">
+                                <img class="team-member-avatar-img" src="img/partner/svgs.png"
+                                     alt="Surrey Video Gaming Society" loading="lazy" sizes="100px"
+                                     srcset="img/partner/svgs@100.png 100w, img/partner/svgs@200.png 200w, img/partner/svgs@400.png 400w, img/partner/svgs.png 879w" />
+                            </div>
+                            <div class="team-member-text grid-element mod-8">
+                                <h3 class="team-member-text-name">SVGS</h3>
+                                <div class="team-member-text-desc">
+                                    Society
+                                </div>
+                                <div class="team-member-text-social">
+                                    <ul>
+                                        <li><a href="https://activity.ussu.co.uk/videogaming" target="_blank" rel="noopener"><i class="fas fa-globe-americas"></i></a></li>
+                                        <li><a href="https://www.facebook.com/SurreyVGS" target="_blank" rel="noopener"><i class="fab fa-facebook-f"></i></a></li>
+                                        <li><a href="https://www.twitch.tv/surreyvgs" target="_blank" rel="noopener"><i class="fab fa-twitch"></i></a></li>
+                                        <li><a href="https://twitter.com/SurreyVGS" target="_blank" rel="noopener"><i class="fab fa-twitter"></i></a></li>
+                                        <li><a href="https://discord.gg/surreyvgs" target="_blank" rel="noopener"><i class="fab fa-discord"></i></a></li>
+                                        <li><a href="https://www.youtube.com/channel/UCwGrHplh_6E6GKeEyXW9hlw" target="_blank" rel="noopener"><i class="fab fa-youtube"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="team-member grid-element grid">
+                            <div class="team-member-avatar grid-element mod-4">
+                                <img class="team-member-avatar-img" src="img/partner/rhul.png" alt="RHUL Esports"
+                                     loading="lazy" sizes="100px"
+                                     srcset="img/partner/rhul@100.png 100w, img/partner/rhul@200.png 200w, img/partner/rhul@400.png 400w, img/partner/rhul.png 1000w"/>
+                            </div>
+                            <div class="team-member-text grid-element mod-8">
+                                <h3 class="team-member-text-name">RHUL Esports</h3>
+                                <div class="team-member-text-desc">
+                                    Society
+                                </div>
+                                <div class="team-member-text-social">
+                                    <ul>
+                                        <li><a href="https://www.facebook.com/RHUL-Esports-112890803577718/" target="_blank" rel="noopener"><i class="fab fa-facebook-f"></i></a></li>
+                                        <li><a href="https://twitter.com/EsportsRhul" target="_blank" rel="noopener"><i class="fab fa-twitter"></i></a></li>
+                                        <li><a href="https://discordapp.com/invite/qcvn6bJ" target="_blank" rel="noopener"><i class="fab fa-discord"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row dark">
+                <div class="row-content u-center waiting-for">
+                    <h2>What are you waiting for?</h2>
+                    <a target="_blank" rel="noopener" href="/go/" class="btn btn-blue btn-huge"><i class="fas fa-rocket"></i>Launch my server now</a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="row-content">
+                    <div class="share">
+                        <a class="share-icon" href="https://twitter.com/Aternos" target="_blank" rel="noopener"><i class="fab fa-twitter"></i></a>
+                        <a class="share-icon" href="https://facebook.com/Aternos" target="_blank" rel="noopener"><i class="fab fa-facebook-square"></i></a>
+                        <a class="share-icon" href="https://youtube.com/user/AternosORG" target="_blank" rel="noopener"><i class="fab fa-youtube"></i></a>
+                        <a class="share-icon" href="https://instagram.com/Aternos" target="_blank" rel="noopener"><i class="fab fa-instagram"></i></a>
+                        <a class="share-icon" href="https://reddit.com/r/Aternos" target="_blank" rel="noopener"><i class="fab fa-reddit"></i></a>
+                        <a class="share-icon" href="https://chat.aternos.org" target="_blank" rel="noopener"><i class="fab fa-discord"></i></a>
+                        <a class="share-icon" href="ts3server://ts.aternos.org" target="_blank" rel="noopener"><i class="fab fa-teamspeak"></i></a>
+                        <a class="share-icon" href="https://github.com/aternosorg" target="_blank" rel="noopener"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="row-content u-center">
+                    &copy; 2013-2022 by Aternos | <a target="_blank" rel="noopener" href="/imprint">Imprint</a> | <a target="_blank" rel="noopener" href="/terms">Terms of service</a> | <a target="_blank" rel="noopener" href="/dataprotection">Privacy Policy</a> | <a target="_blank" rel="noopener" href="https://aternos.gmbh">Company</a> | <a target="_blank" rel="noopener" href="https://aternos.gmbh/en/advertise"> Advertise</a>
+
+                </div>
+            </div>
+        </main>
+
+        <link rel="stylesheet" integrity="sha512-8WH2vkieMeyXzZ8+ZqO/aYEkefWp2L41L6OsEvN95avo7EgFqP9I7PEptcG06BIYM/Siy1X1YyG3NtBaDlmmjQ==" href="/assets/panel/css/btn-f161f6be489e31ec.css"/>        <link rel="stylesheet" href="/panel/icons/fontawesome/css/all.min.css">
+        <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script integrity="sha512-6eoun02AmipuzFR/YFwkYUOp9S5i5JhqN5no6jaTXuCsVcNFJGVx0FGkFTOJiq8vAGwM8ZrVdqbHr7pv1bnyLw==" src="/assets/front/aternos/js/two-e9ea2e9f4d809a2a.js"></script>	<script defer src="https://static.cloudflareinsights.com/beacon.min.js/vaafb692b2aea4879b33c060e79fe94621666317369993" integrity="sha512-0ahDYl866UMhKuYcW078ScMalXqtFJggm7TmlUtp0UlD4eQk0Ixfnm5ykXKvGJNFjLMoortdseTfsRT8oCfgGA==" data-cf-beacon='{"rayId":"76768e75ad010556","token":"d39a6a9d6fdb4c9dbcc7a9b778eb5c94","version":"2022.11.0","si":100}' crossorigin="anonymous"></script>
+</body>
+</html>
